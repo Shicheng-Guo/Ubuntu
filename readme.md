@@ -24,4 +24,10 @@ cd /home/shg047/apt/R-3.5.2
 make
 sudo make install
 
+PATH=/home/shg047/apt/samtools-1.9:$PATH
+PATH=/home/shg047/apt/vcftools_0.1.13/bin:$PATH
+PATH=/home/shg047/apt/htslib-1.9:$PATH
+PATH=/home/shg047/apt/bcftools-1.9:$PATH
+PATH=/home/shg047/apt/Python-3.7.1:$PATH
+
 
