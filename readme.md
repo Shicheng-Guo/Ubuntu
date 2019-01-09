@@ -49,5 +49,6 @@ sudo apt-get install libxml2-dev
 sudo apt-get install openssl
 if (!require("XML")) biocLite("XML")
 if (!require("httr")) biocLite("httr")
+if (!require("xlsx")) install.packages("xlsx")
 
 
