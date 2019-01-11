@@ -18,6 +18,7 @@ sudo apt-get install libcurl4-openssl-dev
 sudo apt-get install zlib1g-dev
 sudo apt-get install libpng-dev
 sudo apt-get install default-jdk
+
 cd /home/shg047/apt/
 tar xzvf R-3.5.2.tar.gz
 cd /home/shg047/apt/R-3.5.2
@@ -51,5 +52,18 @@ sudo apt-get install openssl
 if (!require("XML")) biocLite("XML")
 if (!require("httr")) biocLite("httr")
 if (!require("xlsx")) install.packages("xlsx")
+
+
+sudo apt-get install git
+git config --global user.name "Shicheng-Guo"
+git config --global user.email "shicheng.guo@hotmail.com"
+cd /home/shg047/apt/Github/Ubuntu
+echo "# Ubuntu" >> README.md
+git init
+git add README.md
+git commit -m "readme"
+git remote add origin https://github.com/Shicheng-Guo/Ubuntu.git
+git push -u origin master
+
 
 
