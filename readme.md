@@ -8,6 +8,7 @@ sudo apt-get install build-essential
 sudo apt-get install g77
 sudo apt-get install gfortran
 
+
 sudo apt-get update
 sudo apt-get install bzip2
 sudo apt-get install libbz2-dev
