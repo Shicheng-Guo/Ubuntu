@@ -23,6 +23,13 @@ cd /home/shg047/apt/
 tar xzvf R-3.5.2.tar.gz
 cd /home/shg047/apt/R-3.5.2
 ./configure --with-readline=no --with-x=no
+
+./configure --prefix=/home/shg047/software/R-3.3.2 '--with-cairo' \
+ '--with-jpeglib' '--with-readline' '--with-tcltk' '--with-x=no'\
+ '--with-blas' '--with-lapack' '--enable-R-profiling' '--with-tiff=yes'\
+ '--enable-R-shlib'\
+ '--enable-memory-profiling'
+ 
 make
 sudo make install
 
